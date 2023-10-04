@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": false,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": false,
+    "typeRoots": ["@types", "./node_modules/@types"],
+    "paths": {
+      "@Config/*": ["src/config/*"],
+      "@Constants/*": ["src/constants/*"],
+      "@Decorators/*": ["src/decorators/*"],
+      "@Exceptions/*": ["src/exceptions/*"],
+      "@Filters/*": ["src/filters/*"],
+      "@Guards/*": ["src/guards/*"],
+      "@Interfaces/*": ["src/interfaces/*"],
+      "@Middleware/*": ["src/middlware/*"],
+      "@Modules/*": ["src/modules/*"],
+      "@Pipes/*": ["src/pipes/*"],
+      "@Providers/*": ["src/providers/*"],
+      "@Services/*": ["src/services/*"],
+      "@Utilities/*": ["src/utilities/*"]
+    }
+  }
+}
